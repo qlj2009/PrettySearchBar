@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49F431F7153D404600CED310 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F431F6153D404600CED310 /* UIKit.framework */; };
+		49F431F9153D404600CED310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F431F8153D404600CED310 /* Foundation.framework */; };
+		49F431FB153D404600CED310 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F431FA153D404600CED310 /* CoreGraphics.framework */; };
+		49F43201153D404600CED310 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49F431FF153D404600CED310 /* InfoPlist.strings */; };
+		49F43203153D404600CED310 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F43202153D404600CED310 /* main.m */; };
+		49F43207153D404600CED310 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F43206153D404600CED310 /* AppDelegate.m */; };
+		49F4320A153D404600CED310 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F43209153D404600CED310 /* ViewController.m */; };
+		49F4321E153D40AE00CED310 /* PrettySearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F4321C153D40AE00CED310 /* PrettySearchBar.m */; };
+		49F4321F153D40AE00CED310 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F4321D153D40AE00CED310 /* ViewController.xib */; };
+		49F43228153D40D300CED310 /* searchFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F43222153D40D300CED310 /* searchFrame.png */; };
+		49F43229153D40D300CED310 /* searchFrame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F43223153D40D300CED310 /* searchFrame@2x.png */; };
+		49F4322A153D40D300CED310 /* searchFrameBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F43224153D40D300CED310 /* searchFrameBg.png */; };
+		49F4322B153D40D300CED310 /* searchFrameBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F43225153D40D300CED310 /* searchFrameBg@2x.png */; };
+		49F4322C153D40D300CED310 /* searchFrameHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F43226153D40D300CED310 /* searchFrameHighlight.png */; };
+		49F4322D153D40D300CED310 /* searchFrameHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F43227153D40D300CED310 /* searchFrameHighlight@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49F431F2153D404600CED310 /* PrettySearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrettySearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F431F6153D404600CED310 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49F431F8153D404600CED310 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49F431FA153D404600CED310 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49F431FE153D404600CED310 /* PrettySearchBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrettySearchBar-Info.plist"; sourceTree = "<group>"; };
+		49F43200153D404600CED310 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49F43202153D404600CED310 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49F43204153D404600CED310 /* PrettySearchBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrettySearchBar-Prefix.pch"; sourceTree = "<group>"; };
+		49F43205153D404600CED310 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49F43206153D404600CED310 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49F43208153D404600CED310 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49F43209153D404600CED310 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49F4321B153D40AE00CED310 /* PrettySearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettySearchBar.h; sourceTree = "<group>"; };
+		49F4321C153D40AE00CED310 /* PrettySearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettySearchBar.m; sourceTree = "<group>"; };
+		49F4321D153D40AE00CED310 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		49F43222153D40D300CED310 /* searchFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchFrame.png; sourceTree = "<group>"; };
+		49F43223153D40D300CED310 /* searchFrame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchFrame@2x.png"; sourceTree = "<group>"; };
+		49F43224153D40D300CED310 /* searchFrameBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchFrameBg.png; sourceTree = "<group>"; };
+		49F43225153D40D300CED310 /* searchFrameBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchFrameBg@2x.png"; sourceTree = "<group>"; };
+		49F43226153D40D300CED310 /* searchFrameHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchFrameHighlight.png; sourceTree = "<group>"; };
+		49F43227153D40D300CED310 /* searchFrameHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchFrameHighlight@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F431EF153D404600CED310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F431F7153D404600CED310 /* UIKit.framework in Frameworks */,
+				49F431F9153D404600CED310 /* Foundation.framework in Frameworks */,
+				49F431FB153D404600CED310 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49F431E7153D404600CED310 = {
+			isa = PBXGroup;
+			children = (
+				49F431FC153D404600CED310 /* PrettySearchBar */,
+				49F431F5153D404600CED310 /* Frameworks */,
+				49F431F3153D404600CED310 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49F431F3153D404600CED310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F431F2153D404600CED310 /* PrettySearchBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F431F5153D404600CED310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49F431F6153D404600CED310 /* UIKit.framework */,
+				49F431F8153D404600CED310 /* Foundation.framework */,
+				49F431FA153D404600CED310 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49F431FC153D404600CED310 /* PrettySearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				49F43205153D404600CED310 /* AppDelegate.h */,
+				49F43206153D404600CED310 /* AppDelegate.m */,
+				49F43208153D404600CED310 /* ViewController.h */,
+				49F43209153D404600CED310 /* ViewController.m */,
+				49F4321D153D40AE00CED310 /* ViewController.xib */,
+				49F4321B153D40AE00CED310 /* PrettySearchBar.h */,
+				49F4321C153D40AE00CED310 /* PrettySearchBar.m */,
+				49F43220153D40C800CED310 /* Resources */,
+				49F431FD153D404600CED310 /* Supporting Files */,
+			);
+			path = PrettySearchBar;
+			sourceTree = "<group>";
+		};
+		49F431FD153D404600CED310 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49F431FE153D404600CED310 /* PrettySearchBar-Info.plist */,
+				49F431FF153D404600CED310 /* InfoPlist.strings */,
+				49F43202153D404600CED310 /* main.m */,
+				49F43204153D404600CED310 /* PrettySearchBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49F43220153D40C800CED310 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49F43221153D40D300CED310 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		49F43221153D40D300CED310 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				49F43222153D40D300CED310 /* searchFrame.png */,
+				49F43223153D40D300CED310 /* searchFrame@2x.png */,
+				49F43224153D40D300CED310 /* searchFrameBg.png */,
+				49F43225153D40D300CED310 /* searchFrameBg@2x.png */,
+				49F43226153D40D300CED310 /* searchFrameHighlight.png */,
+				49F43227153D40D300CED310 /* searchFrameHighlight@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49F431F1153D404600CED310 /* PrettySearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F43213153D404600CED310 /* Build configuration list for PBXNativeTarget "PrettySearchBar" */;
+			buildPhases = (
+				49F431EE153D404600CED310 /* Sources */,
+				49F431EF153D404600CED310 /* Frameworks */,
+				49F431F0153D404600CED310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrettySearchBar;
+			productName = PrettySearchBar;
+			productReference = 49F431F2153D404600CED310 /* PrettySearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F431E9153D404600CED310 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 49F431EC153D404600CED310 /* Build configuration list for PBXProject "PrettySearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49F431E7153D404600CED310;
+			productRefGroup = 49F431F3153D404600CED310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F431F1153D404600CED310 /* PrettySearchBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49F431F0153D404600CED310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F43201153D404600CED310 /* InfoPlist.strings in Resources */,
+				49F4321F153D40AE00CED310 /* ViewController.xib in Resources */,
+				49F43228153D40D300CED310 /* searchFrame.png in Resources */,
+				49F43229153D40D300CED310 /* searchFrame@2x.png in Resources */,
+				49F4322A153D40D300CED310 /* searchFrameBg.png in Resources */,
+				49F4322B153D40D300CED310 /* searchFrameBg@2x.png in Resources */,
+				49F4322C153D40D300CED310 /* searchFrameHighlight.png in Resources */,
+				49F4322D153D40D300CED310 /* searchFrameHighlight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F431EE153D404600CED310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F43203153D404600CED310 /* main.m in Sources */,
+				49F43207153D404600CED310 /* AppDelegate.m in Sources */,
+				49F4320A153D404600CED310 /* ViewController.m in Sources */,
+				49F4321E153D40AE00CED310 /* PrettySearchBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49F431FF153D404600CED310 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F43200153D404600CED310 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49F43211153D404600CED310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49F43212153D404600CED310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49F43214153D404600CED310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrettySearchBar/PrettySearchBar-Prefix.pch";
+				INFOPLIST_FILE = "PrettySearchBar/PrettySearchBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49F43215153D404600CED310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrettySearchBar/PrettySearchBar-Prefix.pch";
+				INFOPLIST_FILE = "PrettySearchBar/PrettySearchBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F431EC153D404600CED310 /* Build configuration list for PBXProject "PrettySearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F43211153D404600CED310 /* Debug */,
+				49F43212153D404600CED310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F43213153D404600CED310 /* Build configuration list for PBXNativeTarget "PrettySearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F43214153D404600CED310 /* Debug */,
+				49F43215153D404600CED310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F431E9153D404600CED310 /* Project object */;
+}
